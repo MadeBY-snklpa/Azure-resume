@@ -1,0 +1,34 @@
+1.set goals for your project - 
+		why server  monitoring important for organizations 
+		servers are critical components of a n organizations it infrastructure , any issue with 
+		them can have significant impact on the organzations operations.
+		when it comes to to large scale monitoring a each individual server im time consuming
+		this system is developed to overcome this issue.
+
+
+
+2.introduce your projcet  - 
+		
+		
+		data gathering device is based on  wifi enable ESP32 microcontroller 
+		it's cost efective and have much more computational power than need 
+		demostration of custom made iot board
+		types of sensors which gathering data (power / temp / fans )
+
+3.system architecture-
+		present system architecture
+		Explain the communication flow between the server, ESP32 chip
+
+4.system functionality -
+		
+		server temp / fan monitoring ( threshold )	
+		is power supply working 
+		instant email notifications 
+
+5.results and benifits-
+		show email notifications
+		reduce server fault detection time	
+
+
+https://elements.envato.com/presentation-templates/servers/compatible-with-powerpoint
+https://slidesgo.com/theme/data-migration-process-infographics#search-computer+network&position-10&results-83&rs=searchd
