@@ -22,23 +22,25 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background:#030203 ; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
-   position: relative;
-   height: 800px;
-   min-height: 500px;
-   width: 100%;
-   background: #161415 no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #101823 no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+  background-image: url("https://www.splitshire.com/wp-content/uploads/2021/06/SplitShire-21-5192-uai-1800x1012.jpg");
 }
+
 
 /* vertically center banner section */
 header:before {
