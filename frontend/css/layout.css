@@ -22,23 +22,40 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background:#030203 ; }
+body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
-  position: relative;
-  height: 800px;
-  min-height: 500px;
-  width: 100%;
-  background: #101823 no-repeat top center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  text-align: center;
-  overflow: hidden;
-  background-image: url("https://www.splitshire.com/wp-content/uploads/2021/06/SplitShire-21-5192-uai-1800x1012.jpg");
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+header .animated-text {
+  font-size: 36px;
+  animation: bounceIn 3s both;
+}
+
+@keyframes bounceIn {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 
@@ -83,6 +100,8 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
+
+
 
 /* header social links */
 header .social {
@@ -142,6 +161,8 @@ header .social li:nth-child(4) a {
 
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
+
+
 
 /* scrolldown link */
 header .scrolldown a {
