@@ -16,5 +16,5 @@ function animateCounter(target, duration) {
 
 // Call the animation function when the page loads
 window.onload = function() {
-  animateCounter(160, 4000); // Change the second parameter (2000) to control the duration of the animation (in milliseconds)
+  animateCounter(160, 3000); // Change the second parameter (2000) to control the duration of the animation (in milliseconds)
 };
