@@ -121,49 +121,52 @@ header .social li {
 }
 
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #4CBB17; }
 
 /* Animation for social media logos */
-header .social li:nth-child(1) a {
-  animation: slideInFromLeft 7s ease-in both;
-}
-
-header .social li:nth-child(2) a {
-  animation: slideInFromLeft 7s ease-in both;
-}
-
-header .social li:nth-child(3) a {
-  animation: slideInFromRight 7s ease-in both;
-}
-
-header .social li:nth-child(4) a {
-  animation: slideInFromRight 7s ease-in both;
-}
-
-@keyframes slideInFromLeft {
+@keyframes fadeInFromBehindAndEnlarge {
   0% {
-    transform: translateX(-100%);
+    transform: scale(0);
     opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform: scale(1);
     opacity: 1;
   }
 }
 
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+/* Applying the animation to each icon */
+header .social li:nth-child(1) i {
+  animation: fadeInFromBehindAndEnlarge 1.5s ease-in-out 0.5s both;
 }
 
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li:nth-child(2) i {
+  animation: fadeInFromBehindAndEnlarge 1.5s ease-in-out 1s both;
+}
+
+header .social li:nth-child(3) i {
+  animation: fadeInFromBehindAndEnlarge 1.5s ease-in-out 1.5s both;
+}
+
+header .social li:nth-child(4) i {
+  animation: fadeInFromBehindAndEnlarge 1.5s ease-in-out 2s both;
+}
+
+/* Additional styles for the social icons */
+.social-icon {
+  /* Replace these styles with your icon-specific styles */
+  width: 40px;
+  height: 40px;
+  background-color: #11ABB0;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+
 
 
 
